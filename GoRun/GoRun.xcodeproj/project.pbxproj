@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		342357EFBC33FA0B2928482E /* libPods-GoRun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80899224179AC3DC15DF923C /* libPods-GoRun.a */; };
+		8FE1FA191F0BABA90068CA36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FA181F0BABA90068CA36 /* main.m */; };
+		8FE1FA1C1F0BABA90068CA36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FA1B1F0BABA90068CA36 /* AppDelegate.m */; };
+		8FE1FA241F0BABA90068CA36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FE1FA231F0BABA90068CA36 /* Assets.xcassets */; };
+		8FE1FA6A1F0BACC80068CA36 /* RBSportTrackingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FA621F0BACC80068CA36 /* RBSportTrackingManager.m */; };
+		8FE1FA6B1F0BACC80068CA36 /* RBSportTrackingLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FA651F0BACC80068CA36 /* RBSportTrackingLine.m */; };
+		8FE1FA6C1F0BACC80068CA36 /* RBThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FA691F0BACC80068CA36 /* RBThemeManager.m */; };
+		8FE1FA861F0BACF30068CA36 /* RBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FA781F0BACF30068CA36 /* RBViewController.m */; };
+		8FE1FA871F0BACF30068CA36 /* RBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FA7C1F0BACF30068CA36 /* RBHomeViewController.m */; };
+		8FE1FA891F0BACF30068CA36 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE1FA811F0BACF30068CA36 /* Home.storyboard */; };
+		8FE1FA8A1F0BACF30068CA36 /* RBSportiingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FA831F0BACF30068CA36 /* RBSportiingViewController.m */; };
+		8FE1FA8D1F0BAE6F0068CA36 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE1FA8C1F0BAE6F0068CA36 /* CoreLocation.framework */; };
+		8FE1FA8F1F0BAE7B0068CA36 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE1FA8E1F0BAE7B0068CA36 /* MapKit.framework */; };
+		8FE1FA941F0BB1890068CA36 /* RBSportTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FA931F0BB1890068CA36 /* RBSportTracking.m */; };
+		8FE1FA991F0C807B0068CA36 /* RBMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FA981F0C807B0068CA36 /* RBMapViewController.m */; };
+		8FE1FA9C1F0C80A20068CA36 /* RBAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FA9B1F0C80A20068CA36 /* RBAMapViewController.m */; };
+		8FE1FA9E1F0CF8BA0068CA36 /* DINCond-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FE1FA9D1F0CF8BA0068CA36 /* DINCond-Bold.otf */; };
+		8FE1FAA21F0D002E0068CA36 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FAA11F0D002E0068CA36 /* UIColor+Addition.m */; };
+		8FE1FAA51F0D01000068CA36 /* UIColor+Define.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FAA41F0D01000068CA36 /* UIColor+Define.m */; };
+		8FE1FAA91F0D09530068CA36 /* CycleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FAA81F0D09530068CA36 /* CycleAnimation.m */; };
+		8FE1FAAD1F0DD2710068CA36 /* RBChangeMapTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FAAC1F0DD2710068CA36 /* RBChangeMapTypeViewController.m */; };
+		8FE1FAD41F0F3B8F0068CA36 /* RBSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FAD31F0F3B8F0068CA36 /* RBSoundManager.m */; };
+		8FE1FAD61F0F3BEF0068CA36 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE1FAD51F0F3BEF0068CA36 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		461B69F03FB3937A4EF0B061 /* Pods-GoRun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoRun.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoRun/Pods-GoRun.release.xcconfig"; sourceTree = "<group>"; };
+		80899224179AC3DC15DF923C /* libPods-GoRun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoRun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA951A93C2E5512FBF94146 /* Pods-GoRun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoRun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoRun/Pods-GoRun.debug.xcconfig"; sourceTree = "<group>"; };
+		8FE1FA141F0BABA90068CA36 /* GoRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE1FA181F0BABA90068CA36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FE1FA1A1F0BABA90068CA36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FE1FA1B1F0BABA90068CA36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FE1FA231F0BABA90068CA36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FE1FA281F0BABA90068CA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE1FA611F0BACC80068CA36 /* RBSportTrackingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBSportTrackingManager.h; sourceTree = "<group>"; };
+		8FE1FA621F0BACC80068CA36 /* RBSportTrackingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBSportTrackingManager.m; sourceTree = "<group>"; };
+		8FE1FA641F0BACC80068CA36 /* RBSportTrackingLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBSportTrackingLine.h; sourceTree = "<group>"; };
+		8FE1FA651F0BACC80068CA36 /* RBSportTrackingLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBSportTrackingLine.m; sourceTree = "<group>"; };
+		8FE1FA681F0BACC80068CA36 /* RBThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBThemeManager.h; sourceTree = "<group>"; };
+		8FE1FA691F0BACC80068CA36 /* RBThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBThemeManager.m; sourceTree = "<group>"; };
+		8FE1FA771F0BACF30068CA36 /* RBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBViewController.h; sourceTree = "<group>"; };
+		8FE1FA781F0BACF30068CA36 /* RBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBViewController.m; sourceTree = "<group>"; };
+		8FE1FA7B1F0BACF30068CA36 /* RBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBHomeViewController.h; sourceTree = "<group>"; };
+		8FE1FA7C1F0BACF30068CA36 /* RBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBHomeViewController.m; sourceTree = "<group>"; };
+		8FE1FA811F0BACF30068CA36 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = SportingVC/Home.storyboard; sourceTree = "<group>"; };
+		8FE1FA821F0BACF30068CA36 /* RBSportiingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBSportiingViewController.h; sourceTree = "<group>"; };
+		8FE1FA831F0BACF30068CA36 /* RBSportiingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBSportiingViewController.m; sourceTree = "<group>"; };
+		8FE1FA8C1F0BAE6F0068CA36 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8FE1FA8E1F0BAE7B0068CA36 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8FE1FA901F0BAE9D0068CA36 /* GoRun.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoRun.pch; sourceTree = "<group>"; };
+		8FE1FA921F0BB1890068CA36 /* RBSportTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBSportTracking.h; sourceTree = "<group>"; };
+		8FE1FA931F0BB1890068CA36 /* RBSportTracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBSportTracking.m; sourceTree = "<group>"; };
+		8FE1FA971F0C807B0068CA36 /* RBMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBMapViewController.h; sourceTree = "<group>"; };
+		8FE1FA981F0C807B0068CA36 /* RBMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBMapViewController.m; sourceTree = "<group>"; };
+		8FE1FA9A1F0C80A20068CA36 /* RBAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBAMapViewController.h; sourceTree = "<group>"; };
+		8FE1FA9B1F0C80A20068CA36 /* RBAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBAMapViewController.m; sourceTree = "<group>"; };
+		8FE1FA9D1F0CF8BA0068CA36 /* DINCond-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINCond-Bold.otf"; sourceTree = "<group>"; };
+		8FE1FAA01F0D002E0068CA36 /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		8FE1FAA11F0D002E0068CA36 /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		8FE1FAA31F0D01000068CA36 /* UIColor+Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Define.h"; sourceTree = "<group>"; };
+		8FE1FAA41F0D01000068CA36 /* UIColor+Define.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Define.m"; sourceTree = "<group>"; };
+		8FE1FAA71F0D09530068CA36 /* CycleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleAnimation.h; sourceTree = "<group>"; };
+		8FE1FAA81F0D09530068CA36 /* CycleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleAnimation.m; sourceTree = "<group>"; };
+		8FE1FAAB1F0DD2710068CA36 /* RBChangeMapTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBChangeMapTypeViewController.h; sourceTree = "<group>"; };
+		8FE1FAAC1F0DD2710068CA36 /* RBChangeMapTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBChangeMapTypeViewController.m; sourceTree = "<group>"; };
+		8FE1FAD21F0F3B8F0068CA36 /* RBSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBSoundManager.h; sourceTree = "<group>"; };
+		8FE1FAD31F0F3B8F0068CA36 /* RBSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBSoundManager.m; sourceTree = "<group>"; };
+		8FE1FAD51F0F3BEF0068CA36 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FE1FA111F0BABA90068CA36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE1FAD61F0F3BEF0068CA36 /* AVFoundation.framework in Frameworks */,
+				8FE1FA8F1F0BAE7B0068CA36 /* MapKit.framework in Frameworks */,
+				8FE1FA8D1F0BAE6F0068CA36 /* CoreLocation.framework in Frameworks */,
+				342357EFBC33FA0B2928482E /* libPods-GoRun.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24E373966C5DD768B5DAD009 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BA951A93C2E5512FBF94146 /* Pods-GoRun.debug.xcconfig */,
+				461B69F03FB3937A4EF0B061 /* Pods-GoRun.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8FE1FA0B1F0BABA90068CA36 = {
+			isa = PBXGroup;
+			children = (
+				8FE1FA161F0BABA90068CA36 /* GoRun */,
+				8FE1FA151F0BABA90068CA36 /* Products */,
+				8FE1FA8B1F0BAE6F0068CA36 /* Frameworks */,
+				24E373966C5DD768B5DAD009 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8FE1FA151F0BABA90068CA36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FA141F0BABA90068CA36 /* GoRun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FE1FA161F0BABA90068CA36 /* GoRun */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FA5E1F0BACC80068CA36 /* BLL */,
+				8FE1FA6D1F0BACE10068CA36 /* Libs */,
+				8FE1FA6E1F0BACF30068CA36 /* UI */,
+				8FE1FA1A1F0BABA90068CA36 /* AppDelegate.h */,
+				8FE1FA1B1F0BABA90068CA36 /* AppDelegate.m */,
+				8FE1FA901F0BAE9D0068CA36 /* GoRun.pch */,
+				8FE1FA231F0BABA90068CA36 /* Assets.xcassets */,
+				8FE1FA281F0BABA90068CA36 /* Info.plist */,
+				8FE1FA171F0BABA90068CA36 /* Supporting Files */,
+			);
+			path = GoRun;
+			sourceTree = "<group>";
+		};
+		8FE1FA171F0BABA90068CA36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FA181F0BABA90068CA36 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FE1FA5E1F0BACC80068CA36 /* BLL */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FAD11F0F3B600068CA36 /* SoundManager */,
+				8FE1FAA61F0D08830068CA36 /* PresentAnimation */,
+				8FE1FA5F1F0BACC80068CA36 /* SportManager */,
+				8FE1FA671F0BACC80068CA36 /* ThemeManager */,
+			);
+			path = BLL;
+			sourceTree = "<group>";
+		};
+		8FE1FA5F1F0BACC80068CA36 /* SportManager */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FA911F0BB1450068CA36 /* SportTracking */,
+				8FE1FA601F0BACC80068CA36 /* SportTrackingManager */,
+				8FE1FA631F0BACC80068CA36 /* SportTtackingLine */,
+			);
+			path = SportManager;
+			sourceTree = "<group>";
+		};
+		8FE1FA601F0BACC80068CA36 /* SportTrackingManager */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FA611F0BACC80068CA36 /* RBSportTrackingManager.h */,
+				8FE1FA621F0BACC80068CA36 /* RBSportTrackingManager.m */,
+			);
+			path = SportTrackingManager;
+			sourceTree = "<group>";
+		};
+		8FE1FA631F0BACC80068CA36 /* SportTtackingLine */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FA641F0BACC80068CA36 /* RBSportTrackingLine.h */,
+				8FE1FA651F0BACC80068CA36 /* RBSportTrackingLine.m */,
+			);
+			path = SportTtackingLine;
+			sourceTree = "<group>";
+		};
+		8FE1FA671F0BACC80068CA36 /* ThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FA681F0BACC80068CA36 /* RBThemeManager.h */,
+				8FE1FA691F0BACC80068CA36 /* RBThemeManager.m */,
+			);
+			path = ThemeManager;
+			sourceTree = "<group>";
+		};
+		8FE1FA6D1F0BACE10068CA36 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FA9F1F0D002E0068CA36 /* 十六进制颜色转换 */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		8FE1FA6E1F0BACF30068CA36 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FA9D1F0CF8BA0068CA36 /* DINCond-Bold.otf */,
+				8FE1FA6F1F0BACF30068CA36 /* Common */,
+				8FE1FA791F0BACF30068CA36 /* Home */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8FE1FA6F1F0BACF30068CA36 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FA701F0BACF30068CA36 /* NavVC */,
+				8FE1FA731F0BACF30068CA36 /* TabBarVC */,
+				8FE1FA761F0BACF30068CA36 /* ViewController */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8FE1FA701F0BACF30068CA36 /* NavVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NavVC;
+			sourceTree = "<group>";
+		};
+		8FE1FA731F0BACF30068CA36 /* TabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBarVC;
+			sourceTree = "<group>";
+		};
+		8FE1FA761F0BACF30068CA36 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FA771F0BACF30068CA36 /* RBViewController.h */,
+				8FE1FA781F0BACF30068CA36 /* RBViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8FE1FA791F0BACF30068CA36 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FA811F0BACF30068CA36 /* Home.storyboard */,
+				8FE1FA7A1F0BACF30068CA36 /* HomeVC */,
+				8FE1FA7D1F0BACF30068CA36 /* MapVc */,
+				8FE1FA801F0BACF30068CA36 /* SportingVC */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8FE1FA7A1F0BACF30068CA36 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FA7B1F0BACF30068CA36 /* RBHomeViewController.h */,
+				8FE1FA7C1F0BACF30068CA36 /* RBHomeViewController.m */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		8FE1FA7D1F0BACF30068CA36 /* MapVc */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FAAA1F0DD2510068CA36 /* ChangeMapType */,
+				8FE1FA951F0C807B0068CA36 /* AMap */,
+				8FE1FA961F0C807B0068CA36 /* OriginalMap */,
+			);
+			path = MapVc;
+			sourceTree = "<group>";
+		};
+		8FE1FA801F0BACF30068CA36 /* SportingVC */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FA821F0BACF30068CA36 /* RBSportiingViewController.h */,
+				8FE1FA831F0BACF30068CA36 /* RBSportiingViewController.m */,
+			);
+			path = SportingVC;
+			sourceTree = "<group>";
+		};
+		8FE1FA8B1F0BAE6F0068CA36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FAD51F0F3BEF0068CA36 /* AVFoundation.framework */,
+				8FE1FA8E1F0BAE7B0068CA36 /* MapKit.framework */,
+				8FE1FA8C1F0BAE6F0068CA36 /* CoreLocation.framework */,
+				80899224179AC3DC15DF923C /* libPods-GoRun.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FE1FA911F0BB1450068CA36 /* SportTracking */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FA921F0BB1890068CA36 /* RBSportTracking.h */,
+				8FE1FA931F0BB1890068CA36 /* RBSportTracking.m */,
+			);
+			path = SportTracking;
+			sourceTree = "<group>";
+		};
+		8FE1FA951F0C807B0068CA36 /* AMap */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FA9A1F0C80A20068CA36 /* RBAMapViewController.h */,
+				8FE1FA9B1F0C80A20068CA36 /* RBAMapViewController.m */,
+			);
+			path = AMap;
+			sourceTree = "<group>";
+		};
+		8FE1FA961F0C807B0068CA36 /* OriginalMap */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FA971F0C807B0068CA36 /* RBMapViewController.h */,
+				8FE1FA981F0C807B0068CA36 /* RBMapViewController.m */,
+			);
+			path = OriginalMap;
+			sourceTree = "<group>";
+		};
+		8FE1FA9F1F0D002E0068CA36 /* 十六进制颜色转换 */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FAA31F0D01000068CA36 /* UIColor+Define.h */,
+				8FE1FAA41F0D01000068CA36 /* UIColor+Define.m */,
+				8FE1FAA01F0D002E0068CA36 /* UIColor+Addition.h */,
+				8FE1FAA11F0D002E0068CA36 /* UIColor+Addition.m */,
+			);
+			path = "十六进制颜色转换";
+			sourceTree = "<group>";
+		};
+		8FE1FAA61F0D08830068CA36 /* PresentAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FAA71F0D09530068CA36 /* CycleAnimation.h */,
+				8FE1FAA81F0D09530068CA36 /* CycleAnimation.m */,
+			);
+			path = PresentAnimation;
+			sourceTree = "<group>";
+		};
+		8FE1FAAA1F0DD2510068CA36 /* ChangeMapType */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FAAB1F0DD2710068CA36 /* RBChangeMapTypeViewController.h */,
+				8FE1FAAC1F0DD2710068CA36 /* RBChangeMapTypeViewController.m */,
+			);
+			path = ChangeMapType;
+			sourceTree = "<group>";
+		};
+		8FE1FAD11F0F3B600068CA36 /* SoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FAD21F0F3B8F0068CA36 /* RBSoundManager.h */,
+				8FE1FAD31F0F3B8F0068CA36 /* RBSoundManager.m */,
+			);
+			path = SoundManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FE1FA131F0BABA90068CA36 /* GoRun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE1FA2B1F0BABA90068CA36 /* Build configuration list for PBXNativeTarget "GoRun" */;
+			buildPhases = (
+				243684D5D8A786F021031A0B /* [CP] Check Pods Manifest.lock */,
+				8FE1FA101F0BABA90068CA36 /* Sources */,
+				8FE1FA111F0BABA90068CA36 /* Frameworks */,
+				8FE1FA121F0BABA90068CA36 /* Resources */,
+				1836B46FA75893B30D584F22 /* [CP] Embed Pods Frameworks */,
+				3C5C3D5A1FD6A6A5FF8B4BB1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoRun;
+			productName = GoRun;
+			productReference = 8FE1FA141F0BABA90068CA36 /* GoRun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FE1FA0C1F0BABA90068CA36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Macx;
+				TargetAttributes = {
+					8FE1FA131F0BABA90068CA36 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 67TWWTCG8N;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8FE1FA0F1F0BABA90068CA36 /* Build configuration list for PBXProject "GoRun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FE1FA0B1F0BABA90068CA36;
+			productRefGroup = 8FE1FA151F0BABA90068CA36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FE1FA131F0BABA90068CA36 /* GoRun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FE1FA121F0BABA90068CA36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE1FA241F0BABA90068CA36 /* Assets.xcassets in Resources */,
+				8FE1FA891F0BACF30068CA36 /* Home.storyboard in Resources */,
+				8FE1FA9E1F0CF8BA0068CA36 /* DINCond-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1836B46FA75893B30D584F22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoRun/Pods-GoRun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		243684D5D8A786F021031A0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C5C3D5A1FD6A6A5FF8B4BB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoRun/Pods-GoRun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FE1FA101F0BABA90068CA36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE1FA9C1F0C80A20068CA36 /* RBAMapViewController.m in Sources */,
+				8FE1FAA91F0D09530068CA36 /* CycleAnimation.m in Sources */,
+				8FE1FA6C1F0BACC80068CA36 /* RBThemeManager.m in Sources */,
+				8FE1FAD41F0F3B8F0068CA36 /* RBSoundManager.m in Sources */,
+				8FE1FA991F0C807B0068CA36 /* RBMapViewController.m in Sources */,
+				8FE1FA6B1F0BACC80068CA36 /* RBSportTrackingLine.m in Sources */,
+				8FE1FA6A1F0BACC80068CA36 /* RBSportTrackingManager.m in Sources */,
+				8FE1FA1C1F0BABA90068CA36 /* AppDelegate.m in Sources */,
+				8FE1FA941F0BB1890068CA36 /* RBSportTracking.m in Sources */,
+				8FE1FAA51F0D01000068CA36 /* UIColor+Define.m in Sources */,
+				8FE1FA8A1F0BACF30068CA36 /* RBSportiingViewController.m in Sources */,
+				8FE1FA871F0BACF30068CA36 /* RBHomeViewController.m in Sources */,
+				8FE1FAA21F0D002E0068CA36 /* UIColor+Addition.m in Sources */,
+				8FE1FAAD1F0DD2710068CA36 /* RBChangeMapTypeViewController.m in Sources */,
+				8FE1FA191F0BABA90068CA36 /* main.m in Sources */,
+				8FE1FA861F0BACF30068CA36 /* RBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8FE1FA291F0BABA90068CA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FE1FA2A1F0BABA90068CA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FE1FA2C1F0BABA90068CA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA951A93C2E5512FBF94146 /* Pods-GoRun.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 67TWWTCG8N;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME).pch";
+				INFOPLIST_FILE = GoRun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.GoRun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		8FE1FA2D1F0BABA90068CA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 461B69F03FB3937A4EF0B061 /* Pods-GoRun.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 67TWWTCG8N;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME).pch";
+				INFOPLIST_FILE = GoRun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.GoRun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FE1FA0F1F0BABA90068CA36 /* Build configuration list for PBXProject "GoRun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE1FA291F0BABA90068CA36 /* Debug */,
+				8FE1FA2A1F0BABA90068CA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE1FA2B1F0BABA90068CA36 /* Build configuration list for PBXNativeTarget "GoRun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE1FA2C1F0BABA90068CA36 /* Debug */,
+				8FE1FA2D1F0BABA90068CA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FE1FA0C1F0BABA90068CA36 /* Project object */;
+}

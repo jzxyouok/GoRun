@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NZd-VY-UZ1">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DINCond-Bold.otf">
+            <string>DINCond-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="i5M-Mu-5K6">
+            <objects>
+                <viewController id="NZd-VY-UZ1" customClass="RBHomeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cu9-hl-m2p"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xau-Jn-nbU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NVW-xW-8Ej">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpc-sC-bUO">
+                                <rect key="frame" x="88" y="155" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="跑步"/>
+                                <connections>
+                                    <action selector="runAction:" destination="NZd-VY-UZ1" eventType="touchUpInside" id="fvA-lh-wVj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JbN-cV-uqS">
+                                <rect key="frame" x="88" y="205" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="走路"/>
+                                <connections>
+                                    <action selector="walkAction:" destination="NZd-VY-UZ1" eventType="touchUpInside" id="gBC-7S-yqC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iR8-Xf-bqf">
+                                <rect key="frame" x="88" y="265" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="骑行"/>
+                                <connections>
+                                    <action selector="cycleAction:" destination="NZd-VY-UZ1" eventType="touchUpInside" id="WT4-cd-JIb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jP9-h6-IU4">
+                                <rect key="frame" x="88" y="318" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="登山"/>
+                                <connections>
+                                    <action selector="hideAction:" destination="NZd-VY-UZ1" eventType="touchUpInside" id="J8o-oC-ZHX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z3E-Od-S5N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-732" y="-154"/>
+        </scene>
+        <!--Sportiing View Controller-->
+        <scene sceneID="5Dn-bi-r9v">
+            <objects>
+                <viewController storyboardIdentifier="RBSportiingViewController" id="GC3-I9-Pnh" customClass="RBSportiingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4bM-ja-w5C"/>
+                        <viewControllerLayoutGuide type="bottom" id="f2u-KQ-9gY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VkM-83-pYm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_sport_gps_map_disconnect" translatesAutoresizingMaskIntoConstraints="NO" id="bC4-p4-hFx">
+                                <rect key="frame" x="20" y="40" width="56" height="23"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="axx-Po-3XL">
+                                <rect key="frame" x="0.0" y="392" width="375" height="275"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obo-NV-gEE">
+                                        <rect key="frame" x="137" y="87" width="100" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.43796730039999998" green="0.79114663600000001" blue="0.32124114040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" backgroundImage="ic_sport_continue"/>
+                                        <connections>
+                                            <action selector="continueAction:" destination="GC3-I9-Pnh" eventType="touchUpInside" id="3Dd-eG-wzl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g54-j5-PUK">
+                                        <rect key="frame" x="137" y="87" width="100" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.43796730041503906" green="0.79114663600921631" blue="0.32124114036560059" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" backgroundImage="ic_sport_finish"/>
+                                        <connections>
+                                            <action selector="finishAction:" destination="GC3-I9-Pnh" eventType="touchUpInside" id="hoB-gY-mNK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2H3-RR-N3m">
+                                        <rect key="frame" x="137" y="87" width="100" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.43796730041503906" green="0.79114663600921631" blue="0.32124114036560059" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" backgroundImage="ic_sport_autopause"/>
+                                        <connections>
+                                            <action selector="pauseAction:" destination="GC3-I9-Pnh" eventType="touchUpInside" id="jZm-S3-Nrx"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQN-Qx-Ph7">
+                                        <rect key="frame" x="148" y="195" width="79" height="69"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="取消" backgroundImage="ic_waterprint_shutter"/>
+                                        <connections>
+                                            <action selector="cancelAction:" destination="GC3-I9-Pnh" eventType="touchUpInside" id="4Ex-jV-U4c"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3T2-dT-Xm9">
+                                <rect key="frame" x="0.0" y="20" width="375" height="364"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bin-6T-4p7">
+                                        <rect key="frame" x="141" y="153" width="92" height="58"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="DINCond-Bold" family="DINCond-Bold" pointSize="50"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="距离(公里)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BjN-zg-T7h">
+                                        <rect key="frame" x="124" y="219" width="126" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OcA-22-fdP">
+                                        <rect key="frame" x="33" y="297" width="82" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="DINCond-Bold" family="DINCond-Bold" pointSize="28"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="时长" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lVP-hv-nce">
+                                        <rect key="frame" x="57" y="334" width="35" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYM-9r-Lwh">
+                                        <rect key="frame" x="236" y="297" width="86" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="DINCond-Bold" family="DINCond-Bold" pointSize="28"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ET-KU-VLR">
+                                        <rect key="frame" x="328" y="26" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="ic_sport_map"/>
+                                        <connections>
+                                            <action selector="openMapAction:" destination="GC3-I9-Pnh" eventType="touchUpInside" id="cWc-kK-IFl"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="速度(公里/小时)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q0O-jz-urL">
+                                        <rect key="frame" x="198" y="333" width="162" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bC4-p4-hFx" firstAttribute="leading" secondItem="VkM-83-pYm" secondAttribute="leading" constant="20" id="Zpm-aJ-ugn"/>
+                            <constraint firstItem="bC4-p4-hFx" firstAttribute="top" secondItem="4bM-ja-w5C" secondAttribute="bottom" constant="20" id="cbL-Or-xej"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cancelButton" destination="nQN-Qx-Ph7" id="JcQ-jE-WBp"/>
+                        <outlet property="continueButton" destination="obo-NV-gEE" id="Aze-Rs-9kE"/>
+                        <outlet property="distanceLabel" destination="bin-6T-4p7" id="a6z-tu-Bd0"/>
+                        <outlet property="durationLabel" destination="OcA-22-fdP" id="Bbh-T6-05A"/>
+                        <outlet property="finishButton" destination="g54-j5-PUK" id="kA7-jT-qeb"/>
+                        <outlet property="gpsImageView" destination="bC4-p4-hFx" id="Pmz-oj-M5m"/>
+                        <outlet property="pauseButton" destination="2H3-RR-N3m" id="cPs-BZ-dik"/>
+                        <outlet property="speedLabel" destination="eYM-9r-Lwh" id="Ssk-2h-WAL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tvB-iB-e3s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="-170.46476761619192"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="tfW-22-3Wa">
+            <objects>
+                <viewController storyboardIdentifier="RBAMapViewController" id="0L1-AP-eK8" customClass="RBAMapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8yN-hX-uYi"/>
+                        <viewControllerLayoutGuide type="bottom" id="8eS-i5-eoW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="l9L-oY-nv3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" semanticContentAttribute="playback" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ztm-zx-OUm">
+                                <rect key="frame" x="0.0" y="587" width="375" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="snF-mR-0cM">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" alpha="0.65000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qRr-VU-aeE">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="Zpc-VJ-ExG">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="时长" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ktW-xS-bNU">
+                                                        <rect key="frame" x="276" y="50" width="31" height="18"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u7c-SA-k7i">
+                                                        <rect key="frame" x="45" y="8" width="56" height="45"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="DINCond-Bold" family="DINCond-Bold" pointSize="38"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="距离(公里)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLq-Us-8dh">
+                                                        <rect key="frame" x="37" y="50" width="72" height="18"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTQ-fg-Ns2">
+                                                        <rect key="frame" x="230" y="8" width="123" height="49"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="DINCond-Bold" family="DINCond-Bold" pointSize="38"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </view>
+                                            <blurEffect style="light"/>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oMh-0O-xmZ">
+                                <rect key="frame" x="299" y="499" width="43" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="ic_sport_gps_map_close"/>
+                                <connections>
+                                    <action selector="dismissAction:" destination="0L1-AP-eK8" eventType="touchUpInside" id="kXa-qx-s1V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eU-dy-4Gp">
+                                <rect key="frame" x="34" y="499" width="43" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="ic_sport_gps_map_mode"/>
+                                <connections>
+                                    <action selector="changeMapType:" destination="0L1-AP-eK8" eventType="touchUpInside" id="IVk-ml-jTD"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_sport_gps_map_disconnect" translatesAutoresizingMaskIntoConstraints="NO" id="ftP-1v-TW8">
+                                <rect key="frame" x="20" y="40" width="56" height="23"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                        <constraints>
+                            <constraint firstItem="ftP-1v-TW8" firstAttribute="leading" secondItem="l9L-oY-nv3" secondAttribute="leading" constant="20" id="NWN-YO-VC1"/>
+                            <constraint firstItem="ftP-1v-TW8" firstAttribute="top" secondItem="8yN-hX-uYi" secondAttribute="bottom" constant="20" id="j3e-2K-cXn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="distanceLabel" destination="u7c-SA-k7i" id="RJY-Ib-0MF"/>
+                        <outlet property="durationLabel" destination="fTQ-fg-Ns2" id="Fdt-jN-Wg7"/>
+                        <outlet property="gpsImageView" destination="ftP-1v-TW8" id="Iup-CZ-Rfy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="th6-1T-DUK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="889" y="82"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="xJX-hd-39H">
+            <objects>
+                <viewController id="MIM-QV-IbB" customClass="RBMapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HQX-Gf-7aU"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jse-KV-3Ev"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7nA-qU-PI6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="SJf-4a-rIy">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMr-tD-Hxo">
+                                <rect key="frame" x="24" y="39" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="返回"/>
+                                <connections>
+                                    <action selector="backAction:" destination="MIM-QV-IbB" eventType="touchUpInside" id="DbM-Lo-WMd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SJf-4a-rIy" firstAttribute="leading" secondItem="7nA-qU-PI6" secondAttribute="leading" id="8SS-j3-aOg"/>
+                            <constraint firstAttribute="trailing" secondItem="SJf-4a-rIy" secondAttribute="trailing" id="Alk-lo-tPR"/>
+                            <constraint firstItem="SJf-4a-rIy" firstAttribute="top" secondItem="HQX-Gf-7aU" secondAttribute="bottom" id="oeP-ul-aSX"/>
+                            <constraint firstItem="Jse-KV-3Ev" firstAttribute="top" secondItem="SJf-4a-rIy" secondAttribute="bottom" id="t8z-dc-vJB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="SJf-4a-rIy" id="A43-Ek-Wgy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wij-TD-ekA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="948" y="-637"/>
+        </scene>
+        <!--Change Map Type View Controller-->
+        <scene sceneID="vdI-s6-aoy">
+            <objects>
+                <viewController storyboardIdentifier="RBChangeMapTypeViewController" id="LMS-qm-cYj" customClass="RBChangeMapTypeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zBu-Vg-l2f"/>
+                        <viewControllerLayoutGuide type="bottom" id="cF4-HR-ePi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lu3-Kj-UFc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNf-Vk-qkc">
+                                <rect key="frame" x="30" y="20" width="80" height="89"/>
+                                <state key="normal" image="ic_sport_gps_map_flatmode"/>
+                                <state key="selected" image="ic_sport_gps_map_flatmode_selected"/>
+                                <connections>
+                                    <action selector="changeMapTypeAction:" destination="LMS-qm-cYj" eventType="touchUpInside" id="2fZ-2n-tQe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ath-hP-npX">
+                                <rect key="frame" x="147" y="20" width="80" height="89"/>
+                                <state key="normal" image="ic_sport_gps_map_realmode"/>
+                                <state key="selected" image="ic_sport_gps_map_realmode_selected"/>
+                                <connections>
+                                    <action selector="changeMapTypeAction:" destination="LMS-qm-cYj" eventType="touchUpInside" id="jm9-pd-XTB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="saY-ga-EXK">
+                                <rect key="frame" x="265" y="20" width="80" height="89"/>
+                                <state key="normal" image="ic_sport_gps_map_mixmode"/>
+                                <state key="selected" image="ic_sport_gps_map_mixmode_selected"/>
+                                <connections>
+                                    <action selector="changeMapTypeAction:" destination="LMS-qm-cYj" eventType="touchUpInside" id="s1l-PZ-KCF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="saY-ga-EXK" firstAttribute="top" secondItem="gNf-Vk-qkc" secondAttribute="top" id="2tM-AS-NEQ"/>
+                            <constraint firstItem="gNf-Vk-qkc" firstAttribute="top" secondItem="Lu3-Kj-UFc" secondAttribute="top" constant="20" id="6Oc-05-QEJ"/>
+                            <constraint firstItem="Ath-hP-npX" firstAttribute="top" secondItem="gNf-Vk-qkc" secondAttribute="top" id="GBc-c3-M44"/>
+                            <constraint firstItem="gNf-Vk-qkc" firstAttribute="leading" secondItem="Lu3-Kj-UFc" secondAttribute="leading" constant="30" id="enc-eK-gzI"/>
+                            <constraint firstAttribute="trailing" secondItem="saY-ga-EXK" secondAttribute="trailing" constant="30" id="ijV-eX-6Q5"/>
+                            <constraint firstItem="Ath-hP-npX" firstAttribute="centerX" secondItem="Lu3-Kj-UFc" secondAttribute="centerX" id="rkg-LU-YnJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="satelliteMap" destination="Ath-hP-npX" id="zuE-Ix-4mz"/>
+                        <outlet property="standardMap" destination="gNf-Vk-qkc" id="Y93-0I-fox"/>
+                        <outlet property="standardNightMap" destination="saY-ga-EXK" id="dtZ-pf-iTn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wKw-RS-ENs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1831" y="-522"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_sport_autopause" width="50" height="50"/>
+        <image name="ic_sport_continue" width="100" height="100"/>
+        <image name="ic_sport_finish" width="100" height="100"/>
+        <image name="ic_sport_gps_map_close" width="43" height="43"/>
+        <image name="ic_sport_gps_map_disconnect" width="56" height="23"/>
+        <image name="ic_sport_gps_map_flatmode" width="80" height="89"/>
+        <image name="ic_sport_gps_map_flatmode_selected" width="80" height="89"/>
+        <image name="ic_sport_gps_map_mixmode" width="80" height="89"/>
+        <image name="ic_sport_gps_map_mixmode_selected" width="80" height="89"/>
+        <image name="ic_sport_gps_map_mode" width="43" height="43"/>
+        <image name="ic_sport_gps_map_realmode" width="80" height="89"/>
+        <image name="ic_sport_gps_map_realmode_selected" width="80" height="89"/>
+        <image name="ic_sport_map" width="30" height="30"/>
+        <image name="ic_waterprint_shutter" width="66" height="66"/>
+    </resources>
+</document>
